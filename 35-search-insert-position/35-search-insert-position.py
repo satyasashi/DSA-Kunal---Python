@@ -19,7 +19,7 @@ class Solution:
             elif target == nums[mid]:
                 return mid
 
-        return start
+        return end + 1
 
 if __name__ == "__main__":
     # Driver code.
